@@ -1,0 +1,22 @@
+body{
+  background:#111;
+  color:#fff;
+  font-family:Arial,sans-serif;
+  text-align:center;
+  margin:0;
+  padding:20px;
+}
+
+button{
+  background:#00b894;
+  color:white;
+  border:none;
+  padding:12px 24px;
+  border-radius:8px;
+  font-size:18px;
+}
+
+#signal{
+  font-size:28px;
+  margin:20px;
+}
