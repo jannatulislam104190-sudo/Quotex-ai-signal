@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>AI Signal</title>
+<style>
+body{
+background:#111;
+color:#fff;
+font-family:Arial;
+text-align:center;
+padding:30px;
+}
+button{
+padding:15px 30px;
+font-size:20px;
+border:none;
+border-radius:10px;
+margin:10px;
+}
+.buy{background:green;color:white;}
+.sell{background:red;color:white;}
+</style>
+</head>
+<body>
+
+<h1>AI Signal Demo</h1>
+
+<h2 id="signal">Press Analyze</h2>
+
+<button onclick="signal()" class="buy">Analyze</button>
+
+<script>
+function signal(){
+let s=Math.random()>0.5?"BUY":"SELL";
+document.getElementById("signal").innerHTML=s;
+}
+</script>
+
+</body>
+</html>
